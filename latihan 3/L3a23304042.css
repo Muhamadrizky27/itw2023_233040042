@@ -1,0 +1,16 @@
+body {
+    background-color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+.fb {
+    color: darkblue;
+    font-size: 60px;
+    font-family: Comic sans ms;
+}
+
+.h4 {
+    text-align: right;
+    font-style: oblique;
+}
