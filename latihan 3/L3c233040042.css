@@ -3,33 +3,48 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-h1{ 
+h1 {
     font-family: comic sans MS;
     font-size: 60px;
     color: darkblue;
-    text-align:center;
+    text-align: center;
 }
 
-h3{
+h3 {
     letter-spacing: -1px;
 }
 
-h4{
+h4 {
     text-align: right;
     font-style: italic;
 }
 
-.if {
+.ig {
     color: white;
     font-variant: small-caps;
 }
 
-.p4 {
+.ig:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.fb {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.fb:hover {
+    color: white;
+    background-color: blue;
+}
+
+.p1 {
     color: orange;
     text-align: center;
 }
 
-.p5 {
+.p2 {
     text-align: right;
     line-height: 200%;
 }

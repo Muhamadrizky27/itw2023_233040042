@@ -1,16 +1,23 @@
 body {
     background-color: aqua;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: justify;
 }
 
-.fb {
-    color: darkblue;
+h1{
+    font-family: comic sans MS;
     font-size: 60px;
-    font-family: Comic sans ms;
+    color: darkblue;
 }
 
-.h4 {
+h3{
+    letter-spacing: -1px;
+}
+
+h4 {
     text-align: right;
-    font-style: oblique;
+    font-style: italic;
+}
+
+p {
+    text-align: justify;
 }
