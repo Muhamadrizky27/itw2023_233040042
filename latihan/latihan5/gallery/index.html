@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        
+        h1 {
+            font-size: 80px;
+            font-family: 'Anton', sans-serif;
+            text-align: center;
+            margin: 50px 0; 
+            text-shadow: 1px 1px 2px white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mortal Combat</h1>
+
+    <div class="container">
+        
+        <ul class="gallery">
+            <li>
+                <a href="#gambar-1">
+                    <img src="img/thumbs/liu keng.jpg" alt="Liu Kang">
+                <span>Liu Kang</span>
+                </a>
+
+                <div class="overlay" id="gambar-1">
+                    <a href="#" class="close">X CLOSE </a>
+                    
+                    <a href="#gambar-4" class="prev">prev</a>
+                    <img src="img/full/liu keng.jpg" alt="Liu Kang">
+
+                    <a href="#gambar-2" class="next">next</a>
+                </div>
+            </li>
+
+            <li>
+                <a href="#gambar-2">
+                    <img src="img/thumbs/kung lau.jpg" alt="Kung Lau">
+                <span>Kung Lau</span>
+                </a>
+
+                <div class="overlay" id="gambar-2">
+                    <a href="#" class="close">X CLOSE </a>
+                    <a href="#gambar-1" class="prev">prev</a>
+                    <img src="img/full/kung lau.jpg" alt="Kung Lau">
+                    <a href="#gambar-3" class="next">next</a>
+                </div>
+              
+            </li>
+
+            <li>
+                <a href="#gambar-3">
+                    <img src="img/thumbs/subs.jpg" alt="Sub Zero">
+                <span>Sub Zero</span>
+                    
+                </a>
+
+                <div class="overlay" id="gambar-3">
+                    <a href="#" class="close">X CLOSE </a>
+                    <a href="#gambar-2" class="prev">prev</a>
+                    <img src="img/full/sub zero.jpg" alt="Sub Zero">
+                    <a href="#gambar-4" class="next">next</a>
+                </div>
+              
+            </li>
+
+            <li>
+                <a href="#gambar-4">
+                    <img src="img/thumbs/pions.jpg" alt="scorpion">
+                <span>scorpion</span>
+                    
+                </a>
+
+                <div class="overlay" id="gambar-4">
+                    <a href="#" class="close">X CLOSE </a>
+                    <a href="#gambar-3" class="prev">prev</a>
+                    <img src="img/full/pions.jpg" alt="scorpion">
+                    <a href="#gambar-1" class="next">next</a>
+                </div>
+              
+            </li>
+
+            
+            <div class="clear"></div>
+        </ul>
+    </div>
+    
+</body>
+</html>

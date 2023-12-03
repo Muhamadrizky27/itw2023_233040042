@@ -137,7 +137,7 @@ body {
 }
 
 .container {
-    width: 800px;
+    width: 960px;
     margin: auto;
     background-color: rgb(1, 20, 63);
 }
@@ -205,6 +205,14 @@ body {
     font-size: 14px;
 }
 
+.content img {
+    height: 120px;
+    width: 260px;
+    margin-left: 300px;
+    background-size: cover;
+
+}
+
 .footer {
     background-color: rgb(25, 77, 218);
     padding: 10px;
@@ -215,3 +223,8 @@ body {
     text-align: center;
     font-size: 12px;
 }
+
+
+
+
+

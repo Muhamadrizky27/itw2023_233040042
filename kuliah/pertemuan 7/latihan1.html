@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3</title>
+    <style>
+        div{
+            width: 150px;
+            height: 150px;
+            margin: auto;
+        }
+        .kotak1 {
+            width: 150px;
+            height: 150px;
+            margin: 50px auto;
+            background-color: rgb(129, 124, 124);
+            border-radius: 50% 50% 50% 50%;
+        }
+        .kotak2 {
+            background-color: blue;
+            /* box-shadow: <x-offset> <y-offset> <blur>[size] <color>; */
+                box-shadow: 50px 5px 5px rgb(148, 146, 146) , -5px -5px 5px wheat ;
+
+                transition: 5000s;
+                transition-property: initial;
+        }
+        .kotak2:hover{
+            border-radius: 50s%;
+            transform: rotate(5000000deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="kotak1"></div>
+    <div class="kotak2"></div>
+    
+</body>
+</html>
