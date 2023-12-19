@@ -161,14 +161,11 @@ body {
     align-items: center;
     gap: 1.5rem;
 }
-.about-img img{
-    padding-bottom: 40%;
-    margin-left: 160px;
-    margin-top: 150px;
-    max-width: 300px;
-    height: auto;
-    width: 100%;
-    border-radius: 8px;
+.about-img{
+    text-align: center;
+}
+.about-text{
+    margin: 30px;
 }
 .about-text h2{
     font-size: 60px;
@@ -208,7 +205,7 @@ body {
 }
 .services-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
     grid-gap: 40px;
     margin-top: 20px;
 }
@@ -407,7 +404,28 @@ body {
 }
 
 
+@media screen and (max-width: 768px) {
+    .about-img img{
+        margin-top: 120px;
+        width: 150px;
+    }
 
+    .contact{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .sub-title{
+        font-size: 50px;
+    }
+    .services .services-list div h2{
+        font-size: 15px;
+    }
+    .services .services-list div p{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:576px){
+}
 
 
 
@@ -464,16 +482,5 @@ body {
     }
 }
 
-
-/* Responsive */
-
-/* Tablet */
-  @media screen and (max-width: 768px) {
-    body {
-        background-image: url(../img/backgroundhp.jpg);
-        
-    }
-    
-  }
 
 
